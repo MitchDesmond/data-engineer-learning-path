@@ -147,6 +147,11 @@ display(files)
 
 # COMMAND ----------
 
+print(DA.paths.datasets)
+#print(f"{DA.paths.datasets}/nyctaxi-with-zipcodes/data")
+
+# COMMAND ----------
+
 # MAGIC %sql
 # MAGIC SELECT * FROM delta.`${DA.paths.datasets}/nyctaxi-with-zipcodes/data`
 
